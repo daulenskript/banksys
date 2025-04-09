@@ -28,7 +28,7 @@ public class MainView extends JFrame {
         setSize(1000, 1000);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null); // Центрирование окна
-
+    // dedede
         // Создаем меню
         setJMenuBar(createMenuBar());
 
