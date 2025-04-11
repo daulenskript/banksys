@@ -31,7 +31,7 @@ public class MainView extends JFrame {
     // dedede
         // Создаем меню
         setJMenuBar(createMenuBar());
-
+// fff
         controller = new BankController(this);
         cardLayout = new CardLayout();
         mainPanel = new JPanel(cardLayout);
