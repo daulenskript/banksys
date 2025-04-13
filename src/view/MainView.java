@@ -40,6 +40,7 @@ public class MainView extends JFrame {
         // Инициализируем представления и задаем им рамки для современного вида
         clientsView = new ClientsView();
         banksView = new BanksView();
+        //one more commit
         clientsView.setBorder(BorderFactory.createLineBorder(Color.LIGHT_GRAY, 1));
         banksView.setBorder(BorderFactory.createLineBorder(Color.LIGHT_GRAY, 1));
 
