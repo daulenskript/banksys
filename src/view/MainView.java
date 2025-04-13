@@ -36,10 +36,11 @@ public class MainView extends JFrame {
         cardLayout = new CardLayout();
         mainPanel = new JPanel(cardLayout);
         mainPanel.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20)); // Отступы вокруг панели
-
+// +1 commit for github
         // Инициализируем представления и задаем им рамки для современного вида
         clientsView = new ClientsView();
         banksView = new BanksView();
+        //one more commit
         clientsView.setBorder(BorderFactory.createLineBorder(Color.LIGHT_GRAY, 1));
         banksView.setBorder(BorderFactory.createLineBorder(Color.LIGHT_GRAY, 1));
 
